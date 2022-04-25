@@ -1,0 +1,20 @@
+[package]
+name = "asynx"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Jason5Lee" ]
+description = "Library that helps you to simulate exception without `panic` in async Rust."
+repository = "https://github.com/Jason5Lee/asynx"
+license = "MIT OR Apache-2.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pin-project-lite = "0.2"
+
+[dev-dependencies]
+tokio = { version = "1.17", features = [ "macros", "rt" ] }
+tokio-test = "0.4"
+
+[features]
+default = [ "global" ]
+global = [ ]
