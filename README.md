@@ -24,7 +24,7 @@ which will disable `global` implementation.
 
 Check [this blog](https://jason5lee.me/2022/03/11/rust-exception-async/) for the main idea.
 
-**WARNING**: The sync implementation under `asynx::sync` has many unsafe code. Use it as your own risk.
+**WARNING**: The sync implementation under `asynx::sync` uses many unsafe code. Use it as your own risk.
 
 ## License
 

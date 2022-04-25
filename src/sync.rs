@@ -126,7 +126,7 @@ impl<E> ExceptionContext<E> {
     /// })
     /// ```
     ///
-    /// Note that unlike the unsync version, for [crate::unsync::ExceptionContext],
+    /// Note that unlike the unsync version,
     /// you can only call `catch` once on each context. Calling multiple times causes
     /// panic. You need to create a context for each catching.
     ///
